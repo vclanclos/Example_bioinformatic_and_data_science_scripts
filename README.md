@@ -8,3 +8,9 @@ Annotree is a great tool that allows a user to comb through an annotated GTDB (h
      *  GTDB database taxonomy file for bacteria and archaea
      *  Two outputs from Annotree for the gene1 and gene2 search
      *  Table of Annotree phyla counts with sheets for bacteria and archaea separated
+
+2. **metagenomic_recruitment_plot.R** was published as part of https://www.nature.com/articles/s41396-023-01376-2 and https://github.com/thrash-lab/Lanclos_et_al_2022_figures. 
+
+   Inputs needed:
+     *  RPKM table generated through metagenomic recruitment. See rrap (https://journals.asm.org/doi/10.1128/mra.00644-22) for a straightforward description of metagenomic recruitment or use any in-house pipeline for this.
+     *  Metadata table for metagenome samples

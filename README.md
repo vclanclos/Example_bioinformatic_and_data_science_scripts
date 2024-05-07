@@ -14,3 +14,9 @@ Annotree is a great tool that allows a user to comb through an annotated GTDB (h
    Inputs needed:
      *  RPKM table generated through metagenomic recruitment. See rrap (https://journals.asm.org/doi/10.1128/mra.00644-22) for a straightforward description of metagenomic recruitment or use any in-house pipeline for this.
      *  Metadata table for metagenome samples
+
+3. **debt_interest_calculator_with_slider.py** was a pet-project to better visualize how monthly payment amounts change total interest, monthly interest, and time to debt payoff. This produces an interactive plot that allows a shift of monthly payment amounts to project debt payoff and interest paid over 5 years.
+ 
+   Inputs needed:
+     *  Loan balance
+     *  Loan annual interest rate

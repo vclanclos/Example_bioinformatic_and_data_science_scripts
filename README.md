@@ -20,3 +20,11 @@ Annotree is a great tool that allows a user to comb through an annotated GTDB (h
    Inputs needed:
      *  Loan balance
      *  Loan annual interest rate
+
+4. **parallel_scripting.sh** is an example of how to rapid fire bash scripts for a command with too many inputs for a single script. This example uses GenomeSpot (https://github.com/cultivarium/GenomeSPOT) as an example command.
+   
+   Inputs needed:
+     *  Nucleotide .fna and .faa files for each genome of interest
+     *  Text file of the basenames of all genomic files in a dir
+  
+   
